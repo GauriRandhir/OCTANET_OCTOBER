@@ -34,14 +34,15 @@ nav a {
 
 /* Hero section styles */
 .hero {
-    background-size: cover;
-    text-align: center;
-    padding: 100px 0;
-    color: #781919;
+    background-image: url("boss_office_05.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    text-align: center;
+    background-size: cover;
+    text-align:start;
+    padding: 100px 0;
+    color:black;
+
     
 
 }
