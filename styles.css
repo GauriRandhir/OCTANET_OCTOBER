@@ -34,17 +34,24 @@ nav a {
 
 /* Hero section styles */
 .hero {
-    background-image: url("boss_office_05.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url("pngtree-indoor-office-png-image_2215291.jpg");
     background-size: cover;
-    text-align:start;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: scroll;
+    text-align: center;
     padding: 100px 0;
-    color:black;
+    color: black;
+    animation: fadeIn 1s ease-in-out;    
 
-    
-
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .hero-content {
     max-width: 800px;
@@ -118,5 +125,85 @@ footer {
     padding: 10px 15px;
     cursor: pointer;
 }
+/* Style the contact information section */
+.contact-info {
+    background-color: #39489e;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-/* ... Rest of the styles ... */
+.contact-details{
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* ... Previous styles ... */
+
+/* Style the query form */
+.query-form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.query-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.query-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.query-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.query-form label {
+    font-weight: bold;
+}
+
+.query-form input,
+.query-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.query-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.query-form button:hover {
+    background-color: #0056b3;
+}
+
