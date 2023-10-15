@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(237, 227, 214);
+}
+
+.task-list {
+    background-color: #a9d0de;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+    size: 3cm;
+}
+
+label {
+    flex: 1;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.add-task button {
+    background-color: #24ca66; 
+    color: #4126c9;
+    border: navajowhite;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.remove-task {
+    background-color: #e74c3c; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.add-task{
+    text-align: center;
+}
+.add-task input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.add-task button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto; 
+}
+.prompt-message {
+text-align: center;
+font-size: 30px;
+background-size: contain ;
+margin-top: 20px;
+}
+.deadline {
+padding-left: 10px;
+}
